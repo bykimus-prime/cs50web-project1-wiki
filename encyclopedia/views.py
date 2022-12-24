@@ -46,3 +46,6 @@ def search(request):
             return render(request, "encyclopedia/search.html", {
                "recommendation": recommendation
             })
+
+def new_page(request):
+   return
